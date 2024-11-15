@@ -1,0 +1,36 @@
+.navbarContainer {
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  position: fixed;
+  width: 100%;
+}
+.navbarTopContainer {
+  margin: 0;
+
+  
+  border-radius: 8px;
+}
+.navbarTopContainer h1 {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+.navCenterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.navbarRight {
+  display: flex;
+ gap: 1.5rem;
+ margin-right: 2rem;
+ 
+ font-size: 20px;
+
+ 
+}
+.navbarRight div{
+    cursor: pointer;
+}
